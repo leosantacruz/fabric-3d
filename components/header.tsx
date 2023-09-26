@@ -1,7 +1,7 @@
 const logo = () => {
   return (
     <header className="header">
-      <img src="/images/logo.png" alt="" />
+      <img src="/images/logo.svg" height="60" />
     </header>
   );
 };
