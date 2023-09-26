@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Verdana Pro Semi Bold';
+  src: local('Verdana Pro Semi Bold'), url(/fonts/VerdanaProSemiBold.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Acumin Variable Concept Condensed Black';
+  src: local('Acumin Variable Concept Condensed Black'), url(/fonts/AcuminVariableConceptCondensedBlack.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Acumin Variable Concept';
+  src: local('Acumin Variable Concept'), url(/fonts/AcuminVariableConcept.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Bahnschrift';
+  src: local('Bahnschrift'), url(/fonts/Bahnschrift.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Bebas';
+  src: local('Bebas'), url(/fonts/BebasRegular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Gill Sans Bold';
+  src: local('Gill Sans Bold'), url(/fonts/GillSansBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Highman';
+  src: local('Highman'), url(/fonts/Highman.ttf) format('truetype');
+}
+
+
+html, body {
+  margin: 0;
+  color: rgb(223, 223, 223);
+  font-family: 'Verdana Pro Semi Bold', sans-serif;
+}
+
+
+div, p {
+  line-height: 22px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+textarea:focus, input:focus, select:focus {
+  outline: none;
+}
