@@ -73,7 +73,7 @@ export default function Home({ data }: any) {
     <>
       <div className="container">
         <Head>
-          <title>Lelièvre | Configurateur</title>
+          <title>Fabric 3D | Configurateur</title>
         </Head>
         <PleaseRotate />
         <Header />
